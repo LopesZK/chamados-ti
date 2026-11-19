@@ -32,6 +32,8 @@
     </aside>
 
     <main class="main">
+      <div id="firebase-user-box"></div>
+      <script type="module" src="/js/firebase-rbac.js"></script>
       <% if (msg) { %>
         <div class="toast toast-success" role="status" data-toast><%- icon('check') %><span><%= msg %></span><button type="button" class="toast-close" aria-label="Fechar" data-toast-close><%- icon('x', 16) %></button></div>
       <% } %>
